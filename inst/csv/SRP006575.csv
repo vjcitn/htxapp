@@ -1,0 +1,115 @@
+"","study.accession","experiment.accession","source_name","tissue","tissue.archive.method","cell.line","cell.type","development.stage","disease.status"
+"1","SRP006575","SRX059671","Ewing's sarcoma","Ewing's sarcoma","FFPE",NA,NA,NA,NA
+"2","SRP006575","SRX059687","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"3","SRP006575","SRX059678","Synovial sarcoma","synovial sarcoma","FFPE",NA,NA,NA,NA
+"4","SRP006575","SRX059668","Ewing's sarcoma","Ewing's sarcoma","FFPE",NA,NA,NA,NA
+"5","SRP006575","SRX059658","Papillary urothelial carcinoma","papillary urothelial carcinoma","FFPE",NA,NA,NA,NA
+"6","SRP006575","SRX059667","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"7","SRP006575","SRX059639","Lung adenocarcinoma","lung adenocarcinoma","FFPE",NA,NA,NA,NA
+"8","SRP006575","SRX059693","Leiomyosarcoma","leiomyosarcoma","FFPE",NA,NA,NA,NA
+"9","SRP006575","SRX176118","Breast cancer cell line",NA,NA,"SUM 44PE","breast cancer cells",NA,NA
+"10","SRP006575","SRX059674","Extraskeletal myxoid chondrosarcoma","extraskeletal myxoid chondrosarcoma","FFPE",NA,NA,NA,NA
+"11","SRP006575","SRX059685","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"12","SRP006575","SRX059684","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"13","SRP006575","SRX059673","Extraskeletal myxoid chondrosarcoma","extraskeletal myxoid chondrosarcoma","FFPE",NA,NA,NA,NA
+"14","SRP006575","SRX176088","Adult normal breast","breast","FFPE",NA,NA,"adult","normal"
+"15","SRP006575","SRX176094","Adult normal lung","lung","FFPE",NA,NA,"adult","normal"
+"16","SRP006575","SRX059642","Colon adenocarcinoma","colon adenocarcinoma","FFPE",NA,NA,NA,NA
+"17","SRP006575","SRX059677","Synovial sarcoma","synovial sarcoma","FFPE",NA,NA,NA,NA
+"18","SRP006575","SRX059669","Ewing's sarcoma","Ewing's sarcoma","FFPE",NA,NA,NA,NA
+"19","SRP006575","SRX176108","Fetal normal lung 13wks","lung","FFPE",NA,NA,"fetal, 13wks","normal"
+"20","SRP006575","SRX059647","Prostate adenocarcinoma","prostate adenocarcinoma","FFPE",NA,NA,NA,NA
+"21","SRP006575","SRX059643","Colon adenocarcinoma","colon adenocarcinoma","FFPE",NA,NA,NA,NA
+"22","SRP006575","SRX176105","Fetal normal lung","lung","FFPE",NA,NA,"fetal","normal"
+"23","SRP006575","SRX059666","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"24","SRP006575","SRX059661","Nasopharyngeal carcinoma","nasopharyngeal carcinoma","FFPE",NA,NA,NA,NA
+"25","SRP006575","SRX059654","Skin squamous cell carcinoma","skin squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"26","SRP006575","SRX059649","Head and neck squamous cell carcinoma","head and neck squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"27","SRP006575","SRX176097","Adult normal lung","lung","FFPE",NA,NA,"adult","normal"
+"28","SRP006575","SRX059683","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"29","SRP006575","SRX059664","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"30","SRP006575","SRX059663","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"31","SRP006575","SRX059669","Ewing's sarcoma","Ewing's sarcoma","FFPE",NA,NA,NA,NA
+"32","SRP006575","SRX059655","Skin squamous cell carcinoma","skin squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"33","SRP006575","SRX059665","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"34","SRP006575","SRX176109","Fetal normal bowel 14wks","bowel","FFPE",NA,NA,"fetal, 14wks","normal"
+"35","SRP006575","SRX059690","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"36","SRP006575","SRX059657","Lung squamous cell carcinoma","lung squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"37","SRP006575","SRX059663","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"38","SRP006575","SRX059695","Leiomyosarcoma","leiomyosarcoma","FFPE",NA,NA,NA,NA
+"39","SRP006575","SRX176091","Adult normal breast","breast","FFPE",NA,NA,"adult","normal"
+"40","SRP006575","SRX176104","Adult normal uterus","uterus","FFPE",NA,NA,"adult","normal"
+"41","SRP006575","SRX059694","Leiomyosarcoma","leiomyosarcoma","FFPE",NA,NA,NA,NA
+"42","SRP006575","SRX176112","Fetal normal kidney 15wks","kidney","FFPE",NA,NA,"fetal, 15wks","normal"
+"43","SRP006575","SRX059689","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"44","SRP006575","SRX176096","Adult normal lung","lung","FFPE",NA,NA,"adult","normal"
+"45","SRP006575","SRX059681","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"46","SRP006575","SRX059686","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"47","SRP006575","SRX059640","Lung adenocarcinoma","lung adenocarcinoma","FFPE",NA,NA,NA,NA
+"48","SRP006575","SRX059672","Extraskeletal myxoid chondrosarcoma","extraskeletal myxoid chondrosarcoma","FFPE",NA,NA,NA,NA
+"49","SRP006575","SRX176111","Fetal normal bowel 13wks","bowel","FFPE",NA,NA,"fetal, 13wks","normal"
+"50","SRP006575","SRX176114","Fetal normal kidney 14wks","kidney","FFPE",NA,NA,"fetal, 14wks","normal"
+"51","SRP006575","SRX059659","Papillary urothelial carcinoma","papillary urothelial carcinoma","FFPE",NA,NA,NA,NA
+"52","SRP006575","SRX059656","Lung squamous cell carcinoma","lung squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"53","SRP006575","SRX059636","Breast invasive ductal carcinoma","breast invasive ductal carcinoma","FFPE",NA,NA,NA,NA
+"54","SRP006575","SRX059676","Synovial sarcoma","synovial sarcoma","FFPE",NA,NA,NA,NA
+"55","SRP006575","SRX176119","Breast cancer cell line",NA,NA,"UACC-812","breast cancer cells",NA,NA
+"56","SRP006575","SRX176120","Breast cancer cell line",NA,NA,"ZR-75-30","breast cancer cells",NA,NA
+"57","SRP006575","SRX059648","Head and neck squamous cell carcinoma","head and neck squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"58","SRP006575","SRX176106","Fetal normal lung 14wks","lung","FFPE",NA,NA,"fetal, 14wks","normal"
+"59","SRP006575","SRX176098","Adult normal colon","colon","FFPE",NA,NA,"adult","normal"
+"60","SRP006575","SRX059641","Lung adenocarcinoma","lung adenocarcinoma","FFPE",NA,NA,NA,NA
+"61","SRP006575","SRX176100","Adult normal colon","colon","FFPE",NA,NA,"adult","normal"
+"62","SRP006575","SRX059638","Breast invasive ductal carcinoma","breast invasive ductal carcinoma","FFPE",NA,NA,NA,NA
+"63","SRP006575","SRX059640","Lung adenocarcinoma","lung adenocarcinoma","FFPE",NA,NA,NA,NA
+"64","SRP006575","SRX059634","Breast invasive ductal carcinoma","breast invasive ductal carcinoma","FFPE",NA,NA,NA,NA
+"65","SRP006575","SRX059691","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"66","SRP006575","SRX059675","Extraskeletal myxoid chondrosarcoma","extraskeletal myxoid chondrosarcoma","FFPE",NA,NA,NA,NA
+"67","SRP006575","SRX059646","Prostate adenocarcinoma","prostate adenocarcinoma","FFPE",NA,NA,NA,NA
+"68","SRP006575","SRX176113","Fetal normal kidney 15wks","kidney","FFPE",NA,NA,"fetal, 15wks","normal"
+"69","SRP006575","SRX059698","Dedifferentiated liposarcoma","dedifferentiated liposarcoma","FFPE",NA,NA,NA,NA
+"70","SRP006575","SRX059685","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"71","SRP006575","SRX176093","Adult normal lung","lung","FFPE",NA,NA,"adult","normal"
+"72","SRP006575","SRX176092","Adult normal breast","breast","FFPE",NA,NA,"adult","normal"
+"73","SRP006575","SRX059679","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"74","SRP006575","SRX176107","Fetal normal lung 15wks","lung","FFPE",NA,NA,"fetal, 15wks","normal"
+"75","SRP006575","SRX059637","Breast invasive ductal carcinoma","breast invasive ductal carcinoma","FFPE",NA,NA,NA,NA
+"76","SRP006575","SRX059694","Leiomyosarcoma","leiomyosarcoma","FFPE",NA,NA,NA,NA
+"77","SRP006575","SRX176115","Breast cancer cell line",NA,NA,"CAMA-1","breast cancer cells",NA,NA
+"78","SRP006575","SRX176095","Adult normal lung","lung","FFPE",NA,NA,"adult","normal"
+"79","SRP006575","SRX176103","Adult normal kidney","kidney","FFPE",NA,NA,"adult","normal"
+"80","SRP006575","SRX176090","Adult normal breast","breast","FFPE",NA,NA,"adult","normal"
+"81","SRP006575","SRX176101","Adult normal kidney","kidney","FFPE",NA,NA,"adult","normal"
+"82","SRP006575","SRX059650","Head and neck squamous cell carcinoma","head and neck squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"83","SRP006575","SRX059682","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"84","SRP006575","SRX176099","Adult normal colon","colon","FFPE",NA,NA,"adult","normal"
+"85","SRP006575","SRX059651","Head and neck squamous cell carcinoma","head and neck squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"86","SRP006575","SRX059668","Ewing's sarcoma","Ewing's sarcoma","FFPE",NA,NA,NA,NA
+"87","SRP006575","SRX176089","Adult normal breast","breast","FFPE",NA,NA,"adult","normal"
+"88","SRP006575","SRX059660","Nasopharyngeal carcinoma","nasopharyngeal carcinoma","FFPE",NA,NA,NA,NA
+"89","SRP006575","SRX059664","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"90","SRP006575","SRX059662","Nasopharyngeal carcinoma","nasopharyngeal carcinoma","FFPE",NA,NA,NA,NA
+"91","SRP006575","SRX059697","Dedifferentiated liposarcoma","dedifferentiated liposarcoma","FFPE",NA,NA,NA,NA
+"92","SRP006575","SRX059679","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"93","SRP006575","SRX176110","Fetal normal bowel 15wks","bowel","FFPE",NA,NA,"fetal, 15wks","normal"
+"94","SRP006575","SRX059635","Breast invasive ductal carcinoma","breast invasive ductal carcinoma","FFPE",NA,NA,NA,NA
+"95","SRP006575","SRX059692","Leiomyosarcoma","leiomyosarcoma","FFPE",NA,NA,NA,NA
+"96","SRP006575","SRX059644","Colon adenocarcinoma","colon adenocarcinoma","FFPE",NA,NA,NA,NA
+"97","SRP006575","SRX059696","Dedifferentiated liposarcoma","dedifferentiated liposarcoma","FFPE",NA,NA,NA,NA
+"98","SRP006575","SRX059662","Nasopharyngeal carcinoma","nasopharyngeal carcinoma","FFPE",NA,NA,NA,NA
+"99","SRP006575","SRX059686","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"100","SRP006575","SRX059652","Head and neck squamous cell carcinoma","head and neck squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"101","SRP006575","SRX059639","Lung adenocarcinoma","lung adenocarcinoma","FFPE",NA,NA,NA,NA
+"102","SRP006575","SRX176117","Breast cancer cell line",NA,NA,"HCC1500","breast cancer cells",NA,NA
+"103","SRP006575","SRX059653","Skin squamous cell carcinoma","skin squamous cell carcinoma","FFPE",NA,NA,NA,NA
+"104","SRP006575","SRX059680","Myxoid liposarcoma","myxoid liposarcoma","FFPE",NA,NA,NA,NA
+"105","SRP006575","SRX176102","Adult normal kidney","kidney","FFPE",NA,NA,"adult","normal"
+"106","SRP006575","SRX059645","Prostate adenocarcinoma","prostate adenocarcinoma","FFPE",NA,NA,NA,NA
+"107","SRP006575","SRX059660","Nasopharyngeal carcinoma","nasopharyngeal carcinoma","FFPE",NA,NA,NA,NA
+"108","SRP006575","SRX059670","Ewing's sarcoma","Ewing's sarcoma","FFPE",NA,NA,NA,NA
+"109","SRP006575","SRX176088","Adult normal breast","breast","FFPE",NA,NA,"adult","normal"
+"110","SRP006575","SRX059661","Nasopharyngeal carcinoma","nasopharyngeal carcinoma","FFPE",NA,NA,NA,NA
+"111","SRP006575","SRX059666","Endometrial stromal sarcoma","endometrial stromal sarcoma","FFPE",NA,NA,NA,NA
+"112","SRP006575","SRX059633","Breast invasive ductal carcinoma","breast invasive ductal carcinoma","FFPE",NA,NA,NA,NA
+"113","SRP006575","SRX059688","Gastrointestinal stromal tumor","gastrointestinal stromal tumor","FFPE",NA,NA,NA,NA
+"114","SRP006575","SRX176116","Breast cancer cell line",NA,NA,"HCC1419","breast cancer cells",NA,NA
