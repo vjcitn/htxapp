@@ -1,7 +1,7 @@
 Package: htxapp
 Title: prototype of metadata-driven selection in htxcomp
 Description: prototype of metadata-driven selection in htxcomp
-Version: 0.0.0
+Version: 0.0.1
 Author: Vince Carey
 Suggests: knitr
 Depends: R (>= 3.5), shiny, htxcomp

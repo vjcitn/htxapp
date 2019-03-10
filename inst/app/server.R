@@ -17,7 +17,12 @@ server = function(input, output) {
      observe({
                     if(input$btnSend > 0)
                         isolate({
-                           stopApp(returnValue=hh[,which(hh$study_accession %in% input$cart)])
+                           ans = hh[,which(hh$study_accession %in% input$cart)]
+                           md = lapply(input$cart, function(x)
+              read.csv(system.file(paste0("csv/", x,".csv"), package="htxapp"), stringsAsFactors=FALSE))
+                           names(md) = paste0("sampleAtts", input$cart)
+                           S4Vectors::metadata(ans) = c(S4Vectors::metadata(ans), md)
+                           stopApp(returnValue=ans)
                         })  
            })  
 
