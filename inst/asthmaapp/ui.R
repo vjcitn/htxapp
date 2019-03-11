@@ -22,7 +22,8 @@ retrieval."),
        selected="IL4R", multiple=FALSE),
      selectInput("cart", "add to cart", choices=ls(n1$studenv),
        selected="SRP033335", multiple=TRUE),
-     actionButton("btnSend", "get SummarizedExperiment")
+     downloadButton("downloadData", "get SummarizedExperiment"),
+     actionButton("btnSend", "stop App")
      ),
    mainPanel(
     tabsetPanel(

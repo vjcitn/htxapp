@@ -30,5 +30,23 @@ server = function(input, output) {
                   stopApp(returnValue=ans)
                   })  
               })  
+             output$downloadData <- downloadHandler(
+              filename = function() {
+                paste('filteredSE-', Sys.Date(), '.rds', sep='')
+                },  
+              content = function(con) {
+                ans = hh[,which(hh$study_accession %in% input$cart)]
+                md = lapply(input$cart, function(x)
+                read.csv(system.file(paste0("asthmacsv/", x,".csv"), package="htxapp"), stringsAsFactors=FALSE))
+                names(md) = paste0("sampleAtts", input$cart)
+                metaids = unlist(lapply(md, function(x) x$experiment.accession))
+                okids = intersect(colnames(ans), metaids)
+                md = lapply(md, function(x) x[which(x$experiment.accession %in% okids),])
+                ans = ans[,okids]
+                S4Vectors::metadata(ans) = c(S4Vectors::metadata(ans), md) 
+                saveRDS(ans, file=con)
+                }   
+               )   
+
 
 }

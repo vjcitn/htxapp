@@ -20,7 +20,8 @@ retrieval."),
        selected="triple-negative breast cancer (TNBC)", multiple=FALSE),
      selectInput("cart", "add to cart", choices=ls(n1$studenv),
        selected="SRP066982", multiple=TRUE),
-     actionButton("btnSend", "get SummarizedExperiment")
+     downloadButton("downloadData", "get SummarizedExperiment"),
+     actionButton("btnSend", "Stop app")
      ),
    mainPanel(
     tabsetPanel(
