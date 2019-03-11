@@ -3,7 +3,11 @@ data("n1", package="htxapp")  # n1 is the serialized environment set built from 
 data("studyTitles", package="htxapp")
 nstud = length(ls(n1$studenv))
 nexp = length(ls(n1$expenv))
-hh = htxcomp::loadHtxcomp()
+#hh = htxcomp::loadHtxcomp()
+library(SummarizedExperiment)
+library(restfulSE)
+library(DelayedArray)
+hh = readRDS("rangedHtxGeneSE.rds")
 server = function(input, output) {
   output$b = renderTable(data.frame(st=input$cart, title=studyTitles[input$cart], stringsAsFactors=FALSE))
   output$c = renderPrint(unique(get(input$a, env=n1$kwstenv)))
@@ -43,7 +47,7 @@ server = function(input, output) {
                 ans = ans[,okids]
                 S4Vectors::metadata(ans) = c(S4Vectors::metadata(ans), md)
                 saveRDS(ans, file=con)
-                }   
+                }, contentType="application/octet-stream"
                )
 
 }

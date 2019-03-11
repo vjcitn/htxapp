@@ -5,7 +5,11 @@ load("e1.rda")
 n1 = e1
 nstud = length(ls(n1$studenv))
 nexp = length(ls(n1$expenv))
-hh = htxcomp::loadHtxcomp()
+#hh = htxcomp::loadHtxcomp()
+library(SummarizedExperiment)
+library(restfulSE)
+library(DelayedArray)
+hh = readRDS("rangedHtxGeneSE.rds")
 server = function(input, output) {
   output$b = renderTable(data.frame(st=input$cart, title=studyTitles[input$cart], stringsAsFactors=FALSE))
   output$c = renderPrint(unique(get(input$a, env=n1$kwstenv)))
