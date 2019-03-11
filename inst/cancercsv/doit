@@ -1,0 +1,4 @@
+
+n1 = csv2envs(dir(patt="csv$")[1])
+for (i in dir(patt="csv$")[-1]) csv2envs(i, n1)
+

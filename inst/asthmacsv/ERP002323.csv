@@ -1,0 +1,43 @@
+"","study.accession","experiment.accession","Sample.Name","disease.state","individual","LibraryBarcode","SampleBarcode"
+"1","ERP002323","ERX211564","ERS221210","asthma","603",NA,NA
+"2","ERP002323","ERX211558","ERS221204","chronic cavitary pulmonary aspergillosis","76",NA,NA
+"3","ERP002323","ERX211573","ERS221219","allergic bronchopulmonary aspergillosis","104",NA,NA
+"4","ERP002323","ERX211567","source 425-1","allergic bronchopulmonary aspergillosis","425","506B","B268"
+"5","ERP002323","ERX211566","ERS221212","allergic bronchopulmonary aspergillosis","104",NA,NA
+"6","ERP002323","ERX211560","ERS221206","asthma","635",NA,NA
+"7","ERP002323","ERX211555","source 173-1","allergic bronchopulmonary aspergillosis","173","500B","B262"
+"8","ERP002323","ERX211553","source 395-1","allergic bronchopulmonary aspergillosis","395","502B","B264"
+"9","ERP002323","ERX211562","ERS221208","asthma","603",NA,NA
+"10","ERP002323","ERX211580","ERS221226","asthma","635",NA,NA
+"11","ERP002323","ERX211575","source 604-1","asthma","604","512B","C477"
+"12","ERP002323","ERX211572","source 151-1","chronic cavitary pulmonary aspergillosis","151","526B","C485"
+"13","ERP002323","ERX211549","source 104-3","allergic bronchopulmonary aspergillosis","104","496B","B258"
+"14","ERP002323","ERX211565","ERS221211","healthy","408",NA,NA
+"15","ERP002323","ERX211584","source 635-1","asthma","635","514B","C479"
+"16","ERP002323","ERX211576","source 395-2","allergic bronchopulmonary aspergillosis","395","503B","B265"
+"17","ERP002323","ERX211574","ERS221220","healthy","408",NA,NA
+"18","ERP002323","ERX211563","source 449-2","healthy","449","539B","C498"
+"19","ERP002323","ERX211586","ERS221232","asthma","635",NA,NA
+"20","ERP002323","ERX211561","ERS221207","allergic bronchopulmonary aspergillosis","104",NA,NA
+"21","ERP002323","ERX211587","ERS221233","allergic bronchopulmonary aspergillosis","395",NA,NA
+"22","ERP002323","ERX211581","ERS221227","healthy","449",NA,NA
+"23","ERP002323","ERX211556","ERS221202","allergic bronchopulmonary aspergillosis","173",NA,NA
+"24","ERP002323","ERX211570","source 408-2","healthy","408","533B","C492"
+"25","ERP002323","ERX211589","source 76-1","chronic cavitary pulmonary aspergillosis","76","528B","C487"
+"26","ERP002323","ERX211571","source 635-2","asthma","635","515B","C480"
+"27","ERP002323","ERX211578","ERS221224","healthy","449",NA,NA
+"28","ERP002323","ERX211588","ERS221234","allergic bronchopulmonary aspergillosis","425",NA,NA
+"29","ERP002323","ERX211585","ERS221231","healthy","403",NA,NA
+"30","ERP002323","ERX211583","ERS221229","allergic bronchopulmonary aspergillosis","395",NA,NA
+"31","ERP002323","ERX211577","source 603-2","asthma","603","509B","B271"
+"32","ERP002323","ERX211554","source 449-1","healthy","449","538B","C497"
+"33","ERP002323","ERX211568","source 403-1","healthy","403","530B","C489"
+"34","ERP002323","ERX211590","source 603-1","asthma","603","508B","B270"
+"35","ERP002323","ERX211582","source 408-1","healthy","408","532B","C491"
+"36","ERP002323","ERX211552","ERS221198","chronic cavitary pulmonary aspergillosis","151",NA,NA
+"37","ERP002323","ERX211559","source 104-1","allergic bronchopulmonary aspergillosis","104","494B","B256"
+"38","ERP002323","ERX211569","ERS221215","asthma","635",NA,NA
+"39","ERP002323","ERX211579","ERS221225","healthy","408",NA,NA
+"40","ERP002323","ERX211551","ERS221197","healthy","408",NA,NA
+"41","ERP002323","ERX211557","ERS221203","asthma","604",NA,NA
+"42","ERP002323","ERX211550","source 104-2","allergic bronchopulmonary aspergillosis","104","495B","B257"

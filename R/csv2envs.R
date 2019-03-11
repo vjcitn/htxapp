@@ -1,6 +1,17 @@
+#' utility to create hashtables (environments) linking study/experiment/keyword
+#' for use in searching metadata related to htxcomp elements
+#' @param csv character(1) path to a CSV-formated file assumed to have fields study.accession, experiment.accession
+#' @param envset a list of environments with elements expenv, studenv, kwexenv, kwstenv
+#' @param expenv an environment
+#' @param studenv an environment
+#' @param cleanFields a list with regular expressions as elements; fields matching elements of the
+#' list will not contributes tokens for searching
+#' @note Purpose is to create and add content to maps between tokens in metadata and the studies and experiments
+#' that bear them.  "Stopwords" are removed.
+#' @export
 csv2envs = function(csv, envset=NULL, 
     expenv=new.env(hash=TRUE), studenv=new.env(hash=TRUE),
-    cleanFields = list(".*id$")) {
+    cleanFields = list(".*id$", ".name$", "_name$")) {
 #
 # set up 2 environments: 
 # experiment to keyword, study to keyword
@@ -8,6 +19,8 @@ csv2envs = function(csv, envset=NULL,
  if (!is.null(envset)) {
    expenv = envset$expenv
    studenv = envset$studenv
+   kwexenv = envset$kwexenv
+   kwstenv = envset$kwstenv
    }
 #
 # import CSV derived from htxcomp::sampleAtts, remove duplicate records,
@@ -49,6 +62,10 @@ csv2envs = function(csv, envset=NULL,
 #
  dat = dat[,-c(1,2)]
  alltok = setdiff(unlist(strsplit(allstr, " ")), c(stud,exp))
+ titles = htxcomp::studTable$study_title
+ names(titles) = htxcomp::studTable$study_accession
+ titleTokens = setdiff(strsplit(titles[stud], " ")[[1]], stopWords)
+ alltok = c(alltok, titleTokens)
  nc = nchar(alltok)
  bad = which(nc==0)
  if (length(bad)>0) alltok=alltok[-bad]
@@ -96,18 +113,18 @@ csv2envs = function(csv, envset=NULL,
 #
    allexpts = ls(expenv)
    allstud = ls(studenv)
-   drp = function(x) setdiff(x, c(allexpts, allstud))
-   expts2words = lapply(allexpts, function(x) drp(get(x, env=expenv)))
+   drp = function(x) setdiff(x, c(allexpts, allstud, stopWords))
+   expts2words = lapply(allexpts, function(x) c(titleTokens, drp(get(x, env=expenv))))
    ns = sapply(expts2words, length)
    tab = data.frame(expt=rep(allexpts, ns), phr=unlist(expts2words), stringsAsFactors=FALSE)
-   kwexenv = new.env(hash=TRUE)
+   if (!exists("kwexenv")) kwexenv = new.env(hash=TRUE)
    pr = split(tab$expt, tab$phr)
    for (i in names(pr)) if (nchar(i)>0) assign(i, pr[[i]], env=kwexenv)
 # now set up keystring to study
-   stud2words = lapply(allstud, function(x) drp(get(x, env=studenv)))
+   stud2words = lapply(allstud, function(x) c(titleTokens, drp(get(x, env=studenv))))
    ns = sapply(stud2words, length)
    tab = data.frame(stud=rep(allstud, ns), phr=unlist(stud2words), stringsAsFactors=FALSE)
-   kwstenv = new.env(hash=TRUE)
+   if (!exists("kwstenv")) kwstenv = new.env(hash=TRUE)
    pr = split(tab$stud, tab$phr)
    for (i in names(pr)) assign(i, pr[[i]], env=kwstenv)
  list(expenv=expenv, studenv=studenv, kwexenv=kwexenv, kwstenv=kwstenv)

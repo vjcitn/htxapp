@@ -7,7 +7,7 @@ nexp = length(ls(n1$expenv))
 ui = fluidPage(
   sidebarLayout(
    sidebarPanel(
-     helpText(h2("htxcomp study harvester")),
+     helpText(h2("htxcomp study harvester: cancer prototype")),
      helpText(sprintf("%d experiments from %d studies", nexp, nstud)),
      helpText("Sample-level data is derived from a March 2019 snapshot of all human transcriptomic studies with
 metadata available through SRAdbV2."),

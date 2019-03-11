@@ -1,0 +1,5 @@
+library(htxapp)
+e1 = csv2envs(dir(patt="csv$")[1], cleanFields=list(".*id$", "Barcode$", "Name$", "individual", "donor"))
+for (i in dir(patt="csv$")[-1]) csv2envs(i, e1)
+save(e1, file="e1.rda", compress="xz")
+#runApp()
