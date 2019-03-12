@@ -1,5 +1,5 @@
 #' utility to create hashtables (environments) linking study/experiment/keyword
-#' for use in searching metadata related to htxcomp elements
+#' for use in searching metadata related to HumanTranscriptomeCompendium elements
 #' @param csv character(1) path to a CSV-formated file assumed to have fields study.accession, experiment.accession
 #' @param envset a list of environments with elements expenv, studenv, kwexenv, kwstenv
 #' @param expenv an environment
@@ -23,7 +23,7 @@ csv2envs = function(csv, envset=NULL,
    kwstenv = envset$kwstenv
    }
 #
-# import CSV derived from htxcomp::sampleAtts, remove duplicate records,
+# import CSV derived from HumanTranscriptomeCompendium::sampleAtts, remove duplicate records,
 # bind experiment id as rownames
 #
  dat = read.csv(csv, stringsAsFactors=FALSE)
@@ -62,8 +62,8 @@ csv2envs = function(csv, envset=NULL,
 #
  dat = dat[,-c(1,2)]
  alltok = setdiff(unlist(strsplit(allstr, " ")), c(stud,exp))
- titles = htxcomp::studTable$study_title
- names(titles) = htxcomp::studTable$study_accession
+ titles = HumanTranscriptomeCompendium::studTable$study_title
+ names(titles) = HumanTranscriptomeCompendium::studTable$study_accession
  titleTokens = setdiff(strsplit(titles[stud], " ")[[1]], stopWords)
  alltok = c(alltok, titleTokens)
  nc = nchar(alltok)

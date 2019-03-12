@@ -3,7 +3,7 @@
 \name{csv2envs}
 \alias{csv2envs}
 \title{utility to create hashtables (environments) linking study/experiment/keyword
-for use in searching metadata related to htxcomp elements}
+for use in searching metadata related to HumanTranscriptomeCompendium elements}
 \usage{
 csv2envs(csv, envset = NULL, expenv = new.env(hash = TRUE),
   studenv = new.env(hash = TRUE), cleanFields = list(".*id$", ".name$",
@@ -23,7 +23,7 @@ list will not contributes tokens for searching}
 }
 \description{
 utility to create hashtables (environments) linking study/experiment/keyword
-for use in searching metadata related to htxcomp elements
+for use in searching metadata related to HumanTranscriptomeCompendium elements
 }
 \note{
 Purpose is to create and add content to maps between tokens in metadata and the studies and experiments

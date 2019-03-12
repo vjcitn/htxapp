@@ -1,3 +1,4 @@
+# not exported, retrieved from ontoProc
 stopWords = c("a", "about", "above", "above", "across", "after", "afterwards", 
 "again", "against", "all", "almost", "alone", "along", "already", 
 "also", "although", "always", "am", "among", "amongst", "amoungst", 
