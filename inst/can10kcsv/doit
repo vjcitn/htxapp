@@ -1,0 +1,24 @@
+#> grep("ame", .Last.value, value=TRUE)
+#[1] "filename"               "gap_consent_short_name" "sample_name"           
+#[4] "Sample.Name"            "sample.pool.name"       "source_name"           
+#[7] "study.name"            
+#Browse[2]> cleanFields
+#[[1]]
+#[1] ".*id$"
+#
+#[[2]]
+#[1] ".name$"
+#
+#[[3]]
+#[1] "_name$"
+#
+#
+library(htxapp)
+cf = list("*.id", "filename",
+  "sample_name", "Sample.Name", "sample.pool.name")
+cancer75indices = csv2envs(dir(patt="csv$")[1], cleanFields=cf)
+for (i in dir(patt="csv$")[-1]) {
+  cat(i, "\n")
+  csv2envs(i, cancer75indices, cleanFields=cf)
+}
+save(cancer75indices, file="cancer75indices.rda")

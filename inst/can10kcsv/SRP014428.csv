@@ -1,0 +1,122 @@
+"","study.accession","experiment.accession","source_name","cell.type","cell.line","tissue","sample.type","strain"
+"1","SRP014428","SRX160221","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"2","SRP014428","SRX160251","NG2-sorted cell from blood","NG2-sorted cell from blood of melanoma patient",NA,NA,NA,NA
+"3","SRP014428","SRX160232","LNCaP cell",NA,"LNCaP",NA,NA,NA
+"4","SRP014428","SRX160220","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"5","SRP014428","SRX160188","Brain",NA,NA,"brain",NA,NA
+"6","SRP014428","SRX160169","Brain",NA,NA,"brain",NA,NA
+"7","SRP014428","SRX160175","Brain",NA,NA,"brain",NA,NA
+"8","SRP014428","SRX160280","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"9","SRP014428","SRX160257","Primary melanocyte","primary melanocyte",NA,NA,NA,NA
+"10","SRP014428","SRX160227","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"11","SRP014428","SRX160273","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"12","SRP014428","SRX160267","UACC257 cell",NA,"UACC257",NA,NA,NA
+"13","SRP014428","SRX160170","Brain",NA,NA,"brain",NA,NA
+"14","SRP014428","SRX160230","LNCaP cell",NA,"LNCaP",NA,NA,NA
+"15","SRP014428","SRX160279","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"16","SRP014428","SRX160207","Brain",NA,NA,"brain","human reference brain RNA",NA
+"17","SRP014428","SRX160203","Brain",NA,NA,"brain","human reference brain RNA",NA
+"18","SRP014428","SRX160177","Brain",NA,NA,"brain",NA,NA
+"19","SRP014428","SRX160247","NG2-sorted cell from blood","NG2-sorted cell from blood of melanoma patient",NA,NA,NA,NA
+"20","SRP014428","SRX160179","Brain",NA,NA,"brain",NA,NA
+"21","SRP014428","SRX160234","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"22","SRP014428","SRX160182","Brain",NA,NA,"brain",NA,NA
+"23","SRP014428","SRX160198","Brain",NA,NA,"brain",NA,NA
+"24","SRP014428","SRX160206","Brain",NA,NA,"brain","human reference brain RNA",NA
+"25","SRP014428","SRX160254","PC3 cell",NA,"PC3",NA,NA,NA
+"26","SRP014428","SRX160274","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"27","SRP014428","SRX160184","Brain",NA,NA,"brain",NA,NA
+"28","SRP014428","SRX160226","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"29","SRP014428","SRX160245","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"30","SRP014428","SRX160262","SKMEL5 cell",NA,"SKMEL5",NA,NA,NA
+"31","SRP014428","SRX160183","Brain",NA,NA,"brain",NA,NA
+"32","SRP014428","SRX160239","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"33","SRP014428","SRX160287","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"34","SRP014428","SRX160289","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"35","SRP014428","SRX160268","UACC257 cell",NA,"UACC257",NA,NA,NA
+"36","SRP014428","SRX160283","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"37","SRP014428","SRX160210","Brain",NA,NA,"brain","human reference brain RNA",NA
+"38","SRP014428","SRX160224","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"39","SRP014428","SRX160249","NG2-sorted cell from blood","NG2-sorted cell from blood of melanoma patient",NA,NA,NA,NA
+"40","SRP014428","SRX160258","Primary melanocyte","primary melanocyte",NA,NA,NA,NA
+"41","SRP014428","SRX160250","NG2-sorted cell from blood","NG2-sorted cell from blood of melanoma patient",NA,NA,NA,NA
+"42","SRP014428","SRX160271","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"43","SRP014428","SRX160174","Brain",NA,NA,"brain",NA,NA
+"44","SRP014428","SRX160241","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"45","SRP014428","SRX160270","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"46","SRP014428","SRX160237","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"47","SRP014428","SRX160192","Brain",NA,NA,"brain",NA,NA
+"48","SRP014428","SRX160214","Brain",NA,NA,"brain","human reference brain RNA",NA
+"49","SRP014428","SRX160246","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"50","SRP014428","SRX160288","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"51","SRP014428","SRX160213","Brain",NA,NA,"brain","human reference brain RNA",NA
+"52","SRP014428","SRX160261","SKMEL5 cell",NA,"SKMEL5",NA,NA,NA
+"53","SRP014428","SRX160178","Brain",NA,NA,"brain",NA,NA
+"54","SRP014428","SRX160180","Brain",NA,NA,"brain",NA,NA
+"55","SRP014428","SRX160216","Brain",NA,NA,"brain","human reference brain RNA",NA
+"56","SRP014428","SRX160176","Brain",NA,NA,"brain",NA,NA
+"57","SRP014428","SRX160186","Brain",NA,NA,"brain",NA,NA
+"58","SRP014428","SRX160263","T24 cell",NA,"T24",NA,NA,NA
+"59","SRP014428","SRX160223","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"60","SRP014428","SRX160171","Brain",NA,NA,"brain",NA,NA
+"61","SRP014428","SRX160187","Brain",NA,NA,"brain",NA,NA
+"62","SRP014428","SRX160225","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA
+"63","SRP014428","SRX160229","LNCaP cell",NA,"LNCaP",NA,NA,NA
+"64","SRP014428","SRX160284","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"65","SRP014428","SRX160264","T24 cell",NA,"T24",NA,NA,NA
+"66","SRP014428","SRX160259","SKMEL5 cell",NA,"SKMEL5",NA,NA,NA
+"67","SRP014428","SRX160260","SKMEL5 cell",NA,"SKMEL5",NA,NA,NA
+"68","SRP014428","SRX160195","Brain",NA,NA,"brain",NA,NA
+"69","SRP014428","SRX160219","Cell from blood of healthy individual","leukocyte from blood of healthy individual",NA,NA,NA,NA
+"70","SRP014428","SRX160172","Brain",NA,NA,"brain",NA,NA
+"71","SRP014428","SRX160255","PC3 cell",NA,"PC3",NA,NA,NA
+"72","SRP014428","SRX160233","LNCaP cell",NA,"LNCaP",NA,NA,NA
+"73","SRP014428","SRX160205","Brain",NA,NA,"brain","human reference brain RNA",NA
+"74","SRP014428","SRX160209","Brain",NA,NA,"brain","human reference brain RNA",NA
+"75","SRP014428","SRX160256","PC3 cell",NA,"PC3",NA,NA,NA
+"76","SRP014428","SRX160212","Brain",NA,NA,"brain","human reference brain RNA",NA
+"77","SRP014428","SRX160236","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"78","SRP014428","SRX160189","Brain",NA,NA,"brain",NA,NA
+"79","SRP014428","SRX160266","T24 cell",NA,"T24",NA,NA,NA
+"80","SRP014428","SRX160242","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"81","SRP014428","SRX160181","Brain",NA,NA,"brain",NA,NA
+"82","SRP014428","SRX160275","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"83","SRP014428","SRX160196","Brain",NA,NA,"brain",NA,NA
+"84","SRP014428","SRX160200","Oocyte",NA,NA,"MII oocyte",NA,"CAST/Ei"
+"85","SRP014428","SRX160185","Brain",NA,NA,"brain",NA,NA
+"86","SRP014428","SRX160191","Brain",NA,NA,"brain",NA,NA
+"87","SRP014428","SRX160235","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"88","SRP014428","SRX160282","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"89","SRP014428","SRX160281","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"90","SRP014428","SRX160240","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"91","SRP014428","SRX160211","Brain",NA,NA,"brain","human reference brain RNA",NA
+"92","SRP014428","SRX160278","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"93","SRP014428","SRX160265","T24 cell",NA,"T24",NA,NA,NA
+"94","SRP014428","SRX160252","NG2-sorted cell from blood","NG2-sorted cell from blood of melanoma patient",NA,NA,NA,NA
+"95","SRP014428","SRX160173","Brain",NA,NA,"brain",NA,NA
+"96","SRP014428","SRX160238","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"97","SRP014428","SRX160244","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"98","SRP014428","SRX160276","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"99","SRP014428","SRX160190","Brain",NA,NA,"brain",NA,NA
+"100","SRP014428","SRX160197","Brain",NA,NA,"brain",NA,NA
+"101","SRP014428","SRX160243","LNCaP cells",NA,"LNCaP",NA,NA,NA
+"102","SRP014428","SRX160193","Brain",NA,NA,"brain",NA,NA
+"103","SRP014428","SRX160204","Brain",NA,NA,"brain","human reference brain RNA",NA
+"104","SRP014428","SRX160217","Brain",NA,NA,"brain","human reference brain RNA",NA
+"105","SRP014428","SRX160231","LNCaP cell",NA,"LNCaP",NA,NA,NA
+"106","SRP014428","SRX160269","UACC257 cell",NA,"UACC257",NA,NA,NA
+"107","SRP014428","SRX160199","Oocyte",NA,NA,"MII oocyte",NA,"CAST/Ei"
+"108","SRP014428","SRX160215","Brain",NA,NA,"brain","human reference brain RNA",NA
+"109","SRP014428","SRX160286","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"110","SRP014428","SRX160218","Cell from blood of healthy individual","leukocyte from blood of healthy individual",NA,NA,NA,NA
+"111","SRP014428","SRX160248","NG2-sorted cell from blood","NG2-sorted cell from blood of melanoma patient",NA,NA,NA,NA
+"112","SRP014428","SRX160201","Oocyte",NA,NA,"MII oocyte",NA,"CAST/Ei"
+"113","SRP014428","SRX160228","LNCaP cell",NA,"LNCaP",NA,NA,NA
+"114","SRP014428","SRX160285","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"115","SRP014428","SRX160253","PC3 cell",NA,"PC3",NA,NA,NA
+"116","SRP014428","SRX160208","Brain",NA,NA,"brain","human reference brain RNA",NA
+"117","SRP014428","SRX160202","Brain",NA,NA,"brain","human reference brain RNA",NA
+"118","SRP014428","SRX160272","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"119","SRP014428","SRX160277","Universal human reference RNA",NA,NA,NA,"universal human reference RNA",NA
+"120","SRP014428","SRX160194","Brain",NA,NA,"brain",NA,NA
+"121","SRP014428","SRX160222","Embryonic stem cell","embryonic stem cell",NA,NA,NA,NA

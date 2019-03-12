@@ -1,0 +1,64 @@
+"","study.accession","experiment.accession","ENA.FIRST.PUBLIC","ENA.LAST.UPDATE","Sample.Name","disease.staging","organism.part","Sex","age","disease.state"
+"1","ERP013206","ERX1220520","2017-07-23","2015-11-17","ERS977356","Barrett''s","esophagus tissue",NA,NA,NA
+"2","ERP013206","ERX1220531","2017-07-23","2015-11-17","ERS977367","Barrett''s","esophagus tissue",NA,NA,NA
+"3","ERP013206","ERX1220538",NA,NA,"source LG01","low-grade dysplasia","esophagus","male","73","Barrett''s esophagus"
+"4","ERP013206","ERX1220582","2017-07-23","2015-11-17","ERS977418","Normal squamous esophagus","esophagus tissue",NA,NA,NA
+"5","ERP013206","ERX1220573",NA,NA,"source N02",NA,"esophagus","male","77","normal"
+"6","ERP013206","ERX1220572",NA,NA,"source N01",NA,"esophagus","male","43","normal"
+"7","ERP013206","ERX1220523",NA,NA,"source B04","non-dysplastic","esophagus","male","75","Barrett''s esophagus"
+"8","ERP013206","ERX1220562","2017-07-23","2015-11-17","ERS977398","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"9","ERP013206","ERX1220579","2017-07-23","2015-11-17","ERS977415","Normal squamous esophagus","esophagus tissue",NA,NA,NA
+"10","ERP013206","ERX1220565",NA,NA,"source LNC13",NA,"esophagus","male","78","esophageal adenocarcinoma"
+"11","ERP013206","ERX1220536",NA,NA,"source B12","non-dysplastic","esophagus","male","69","Barrett''s esophagus"
+"12","ERP013206","ERX1220551",NA,NA,"source LG08","low-grade dysplasia","esophagus","male","72","Barrett''s esophagus"
+"13","ERP013206","ERX1220581",NA,NA,"source N09",NA,"esophagus","male","75","normal"
+"14","ERP013206","ERX1220534",NA,NA,"source B10_rep","non-dysplastic","esophagus","male","69","Barrett???s esophagus"
+"15","ERP013206","ERX1220580",NA,NA,"source N08_rep",NA,"esophagus","male","60","normal"
+"16","ERP013206","ERX1220578",NA,NA,"source N06",NA,"esophagus","male","84","normal"
+"17","ERP013206","ERX1220524",NA,NA,"source B05","non-dysplastic","esophagus","male","51","Barrett???s esophagus"
+"18","ERP013206","ERX1220546",NA,NA,"source LG05S",NA,"esophagus","male","53","normal"
+"19","ERP013206","ERX1220527",NA,NA,"source B06_rep","non-dysplastic","esophagus","male","52","Barrett???s esophagus"
+"20","ERP013206","ERX1220559","2017-07-23","2015-11-17","ERS977395","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"21","ERP013206","ERX1220526","2017-07-23","2015-11-17","ERS977362","Barrett''s","esophagus tissue",NA,NA,NA
+"22","ERP013206","ERX1220553","2017-07-23","2015-11-17","ERS977389","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"23","ERP013206","ERX1220574",NA,NA,"source N03",NA,"esophagus","male","60","normal"
+"24","ERP013206","ERX1220521","2017-07-23","2015-11-17","ERS977357","Barrett''s","esophagus tissue",NA,NA,NA
+"25","ERP013206","ERX1220577","2017-07-23","2015-11-17","ERS977413","Normal squamous esophagus","esophagus tissue",NA,NA,NA
+"26","ERP013206","ERX1220533",NA,NA,"source B10","non-dysplastic","esophagus","male","69","Barrett???s esophagus"
+"27","ERP013206","ERX1220528","2017-07-23","2015-11-17","ERS977364","Barrett''s","esophagus tissue",NA,NA,NA
+"28","ERP013206","ERX1220547",NA,NA,"source LG06","low-grade dysplasia","esophagus","male","50","Barrett''s esophagus"
+"29","ERP013206","ERX1220543",NA,NA,"source LG03B","non-dysplastic","esophagus","male","58","Barrett''s esophagus"
+"30","ERP013206","ERX1220558","2017-07-23","2015-11-17","ERS977394","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"31","ERP013206","ERX1220564","2017-07-23","2015-11-17","ERS977400","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"32","ERP013206","ERX1220537",NA,NA,"source B13","non-dysplastic","esophagus","male","70","Barrett''s esophagus"
+"33","ERP013206","ERX1220539",NA,NA,"source LG01S",NA,"esophagus","male","73","normal"
+"34","ERP013206","ERX1220540",NA,NA,"source LG02","low-grade dysplasia","esophagus","male","62","Barrett''s esophagus"
+"35","ERP013206","ERX1220563","2017-07-23","2015-11-17","ERS977399","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"36","ERP013206","ERX1220557","2017-07-23","2015-11-17","ERS977393","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"37","ERP013206","ERX1220555","2017-07-23","2015-11-17","ERS977391","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"38","ERP013206","ERX1220575",NA,NA,"source N04",NA,"esophagus","male","57","normal"
+"39","ERP013206","ERX1220560","2017-07-23","2015-11-17","ERS977396","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"40","ERP013206","ERX1220535",NA,NA,"source B11","non-dysplastic","esophagus","male","59","Barrett''s esophagus"
+"41","ERP013206","ERX1220529","2017-07-23","2015-11-17","ERS977365","Barrett''s","esophagus tissue",NA,NA,NA
+"42","ERP013206","ERX1220552",NA,NA,"source LG09S",NA,"esophagus","male","63","normal"
+"43","ERP013206","ERX1220567","2017-07-23","2015-11-17","ERS977403","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"44","ERP013206","ERX1220576","2017-07-23","2015-11-17","ERS977412","Normal squamous esophagus","esophagus tissue",NA,NA,NA
+"45","ERP013206","ERX1220554","2017-07-23","2015-11-17","ERS977390","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"46","ERP013206","ERX1220556",NA,NA,"source LNC04",NA,"esophagus","male","75","esophageal adenocarcinoma"
+"47","ERP013206","ERX1220549",NA,NA,"source LG06T",NA,"esophagus","male","50","esophageal adenocarcinoma"
+"48","ERP013206","ERX1220571",NA,NA,"source LNC_09S",NA,"esophagus","male","80","normal"
+"49","ERP013206","ERX1220542",NA,NA,"source LG03","low-grade dysplasia","esophagus","male","58","Barrett''s esophagus"
+"50","ERP013206","ERX1220530","2017-07-23","2015-11-17","ERS977366","Barrett''s","esophagus tissue",NA,NA,NA
+"51","ERP013206","ERX1220570",NA,NA,"source LNC_07S",NA,"esophagus","male","51","normal"
+"52","ERP013206","ERX1220532",NA,NA,"source B09_rep","non-dysplastic","esophagus","male","58","Barrett???s esophagus"
+"53","ERP013206","ERX1220568","2017-07-23","2015-11-17","ERS977404","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"54","ERP013206","ERX1220548",NA,NA,"source LG06S",NA,"esophagus","male","50","normal"
+"55","ERP013206","ERX1220566","2017-07-23","2015-11-17","ERS977402","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"56","ERP013206","ERX1220544",NA,NA,"source LG04","low-grade dysplasia","esophagus","male","44","Barrett''s esophagus"
+"57","ERP013206","ERX1220561","2017-07-23","2015-11-17","ERS977397","Esophageal adenocarcinoma","esophagus tissue",NA,NA,NA
+"58","ERP013206","ERX1220541",NA,NA,"source LG02S",NA,"esophagus","male","62","normal"
+"59","ERP013206","ERX1220522",NA,NA,"source B03","non-dysplastic","esophagus","male","24","Barrett''s esophagus"
+"60","ERP013206","ERX1220550","2017-07-23","2015-11-17","ERS977386","Low-grade dysplasia","esophagus tissue",NA,NA,NA
+"61","ERP013206","ERX1220545","2017-07-23","2015-11-17","ERS977381","Low-grade dysplasia","esophagus tissue",NA,NA,NA
+"62","ERP013206","ERX1220525",NA,NA,"source B05_ rep","non-dysplastic","esophagus","male","51","Barrett???s esophagus"
+"63","ERP013206","ERX1220569","2017-07-23","2015-11-17","ERS977405","Normal squamous esophagus","esophagus tissue",NA,NA,NA

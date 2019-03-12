@@ -1,0 +1,65 @@
+"","study.accession","experiment.accession","Sample.Name","age","bio.material","cell.type","patient.code","unknown"
+"1","ERP013260","ERX1270448","ERS1026668","68","Colorectal Cancer","Treg","crc2",NA
+"2","ERP013260","ERX1270418","ERS1026638","77","Non Small Cell Lung Cancer","Th1","nsclc8",NA
+"3","ERP013260","ERX1270463","ERS1026683","54","Colorectal Cancer","Th17","crc9",NA
+"4","ERP013260","ERX1270471","ERS1026691","78","Colorectal Cancer","Th17","crc5",NA
+"5","ERP013260","ERX1270430","ERS1026650","76","Colorectal Cancer","Treg","crc1",NA
+"6","ERP013260","ERX1270469","ERS1026689","79","Colorectal Cancer","Th17","crc4",NA
+"7","ERP013260","ERX1270443","ERS1026663","79","Colorectal Cancer","Treg","crc4",NA
+"8","ERP013260","ERX1270415","ERS1026635","84","Non Small Cell Lung Cancer","Treg","nsclc1",NA
+"9","ERP013260","ERX1270458","ERS1026678","79","Colorectal Cancer","Th1","crc4",NA
+"10","ERP013260","ERX1270423","ERS1026643","79","Non Small Cell Lung Cancer","Th1","nsclc4",NA
+"11","ERP013260","ERX1270421","ERS1026641","66","Non Small Cell Lung Cancer","Th1","nsclc5",NA
+"12","ERP013260","ERX1270438","ERS1026658","69","Non Small Cell Lung Cancer","Th1","nsclc9",NA
+"13","ERP013260","ERX1270431","ERS1026651","76","Colorectal Cancer","Treg","crc1",NA
+"14","ERP013260","ERX1270410","ERS1026630","78","Non Small Cell Lung Cancer","Treg","nsclc7",NA
+"15","ERP013260","ERX1270468","ERS1026688","84","Colorectal Cancer","Th17","crc7",NA
+"16","ERP013260","ERX1270456","ERS1026676","79","Colorectal Cancer","Th1","crc4",NA
+"17","ERP013260","ERX1270454","ERS1026674","69","Colorectal Cancer","Th1","crc6",NA
+"18","ERP013260","ERX1270420","ERS1026640","78","Non Small Cell Lung Cancer","Th1","nsclc7",NA
+"19","ERP013260","ERX1270459","ERS1026679","78","Colorectal Cancer","Th1","crc5",NA
+"20","ERP013260","ERX1270437","ERS1026657","77","Non Small Cell Lung Cancer","Th1","nsclc10",NA
+"21","ERP013260","ERX1270447","ERS1026667","79","Colorectal Cancer","Treg","crc4",NA
+"22","ERP013260","ERX1270426","ERS1026646","72","Non Small Cell Lung Cancer","Th17","nsclc3",NA
+"23","ERP013260","ERX1270452","ERS1026672","78","Colorectal Cancer","Treg","crc5",NA
+"24","ERP013260","ERX1270465","ERS1026685","84","Colorectal Cancer","Th17","crc7",NA
+"25","ERP013260","ERX1270417","ERS1026637",NA,"Non Small Cell Lung Cancer","Treg","nsclc5,nsclc6,nsclc7,nsclc8,nsclc9,nsclc10","age"
+"26","ERP013260","ERX1270428","ERS1026648","76","Colorectal Cancer","Th1","crc1",NA
+"27","ERP013260","ERX1270445","ERS1026665","69","Colorectal Cancer","Treg","crc6",NA
+"28","ERP013260","ERX1270434","ERS1026654",NA,"Crohn","Treg","c1",NA
+"29","ERP013260","ERX1270460","ERS1026680","54","Colorectal Cancer","Th1","crc9",NA
+"30","ERP013260","ERX1270473","ERS1013833",NA,"Peripheral Blood","Treg",NA,NA
+"31","ERP013260","ERX1270450","ERS1026670","84","Colorectal Cancer","Treg","crc7",NA
+"32","ERP013260","ERX1270472","ERS1026692","69","Colorectal Cancer","Th17","crc6",NA
+"33","ERP013260","ERX1270462","ERS1026682","84","Colorectal Cancer","Th1","crc7",NA
+"34","ERP013260","ERX1270427","ERS1026647","78","Non Small Cell Lung Cancer","Th17","nsclc7",NA
+"35","ERP013260","ERX1270422","ERS1026642","72","Non Small Cell Lung Cancer","Th1","nsclc3",NA
+"36","ERP013260","ERX1270444","ERS1026664","75","Colorectal Cancer","Treg","crc8",NA
+"37","ERP013260","ERX1270411","ERS1026631","71","Non Small Cell Lung Cancer","Treg","nsclc6",NA
+"38","ERP013260","ERX1270453","ERS1026673","80","Colorectal Cancer","Th1","crc3",NA
+"39","ERP013260","ERX1270439","ERS1026659","77","Non Small Cell Lung Cancer","Th17","nsclc10",NA
+"40","ERP013260","ERX1270424","ERS1026644","66","Non Small Cell Lung Cancer","Th17","nsclc5",NA
+"41","ERP013260","ERX1270435","ERS1026655","77","Non Small Cell Lung Cancer","Treg","nsclc10",NA
+"42","ERP013260","ERX1270449","ERS1026669","54","Colorectal Cancer","Treg","crc9",NA
+"43","ERP013260","ERX1270419","ERS1026639","71","Non Small Cell Lung Cancer","Th1","nsclc6",NA
+"44","ERP013260","ERX1270461","ERS1026681","69","Colorectal Cancer","Th1","crc6",NA
+"45","ERP013260","ERX1270432","ERS1026652",NA,"Peripheral Blood","Treg","b1",NA
+"46","ERP013260","ERX1270467","ERS1026687","79","Colorectal Cancer","Th17","crc4",NA
+"47","ERP013260","ERX1270455","ERS1026675","78","Colorectal Cancer","Th1","crc5",NA
+"48","ERP013260","ERX1270429","ERS1026649","76","Colorectal Cancer","Th17","crc1",NA
+"49","ERP013260","ERX1270425","ERS1026645","79","Non Small Cell Lung Cancer","Th17","nsclc4",NA
+"50","ERP013260","ERX1270470","ERS1026690","54","Colorectal Cancer","Th17","crc9",NA
+"51","ERP013260","ERX1270442","ERS1026662","78","Colorectal Cancer","Treg","crc5",NA
+"52","ERP013260","ERX1270466","ERS1026686","80","Colorectal Cancer","Th17","crc3",NA
+"53","ERP013260","ERX1270457","ERS1026677","68","Colorectal Cancer","Th1","crc2",NA
+"54","ERP013260","ERX1270436","ERS1026656","69","Non Small Cell Lung Cancer","Treg","nsclc9",NA
+"55","ERP013260","ERX1270451","ERS1026671","69","Colorectal Cancer","Treg","crc6",NA
+"56","ERP013260","ERX1270412","ERS1026632","77","Non Small Cell Lung Cancer","Treg","nsclc8",NA
+"57","ERP013260","ERX1270446","ERS1026666","84","Colorectal Cancer","Treg","crc7",NA
+"58","ERP013260","ERX1270440","ERS1026660","69","Non Small Cell Lung Cancer","Th17","nsclc9",NA
+"59","ERP013260","ERX1270413","ERS1026633","83","Non Small Cell Lung Cancer","Treg","nsclc2",NA
+"60","ERP013260","ERX1270416","ERS1026636",NA,"Non Small Cell Lung Cancer","Th1","nsclc5,nsclc6,nsclc7,nsclc8,nsclc9,nsclc10","age"
+"61","ERP013260","ERX1270441","ERS1026661","80","Colorectal Cancer","Treg","crc3",NA
+"62","ERP013260","ERX1270464","ERS1026684","68","Colorectal Cancer","Th17","crc2",NA
+"63","ERP013260","ERX1270414","ERS1026634","79","Non Small Cell Lung Cancer","Treg","nsclc4",NA
+"64","ERP013260","ERX1270433","ERS1026653",NA,"Peripheral Blood","Treg","b2",NA
