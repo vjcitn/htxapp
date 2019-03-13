@@ -1,0 +1,104 @@
+---
+title: "HumanTranscriptomeCompendium Illustration: Hepatocellular Carcinoma Tumor/Normal/Thrombosis"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Working with htxapp: Tumor/normal/thrombosis transcriptomes in Hepatocellular carcinoma}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+```{r setup,echo=FALSE,results="hide"}
+suppressPackageStartupMessages({
+library(BiocStyle)
+library(htxapp)
+library(restfulSE)
+library(HumanTranscriptomeCompendium)
+library(ggplot2)
+library(table1)
+})
+```
+
+# Introduction
+
+We used the app at https://vjcitn.shinyapps.io/cancer9k 
+to extract SRA study SRP069212.  This dataset was
+contributed to SRA in conjunction with
+"Recurrently deregulated lncRNAs in hepatocellular
+carcinoma", a 2017 Nature Communications paper by Yang
+and colleagues from Tsinghua University (PMID 28194035).
+The data are saved as `pairedHCC.rds`.  Reads were requantified
+using salmon (by Sean Davis of NCI) and moved into the
+`/shared/bioconductor` folder of the HDF Scalable Data Service
+at `http://hsdshdflab.hdfgroup.org`.
+
+We saved the dataset using the cancer9k app download facility,
+to a local file `pairedHCC.rds`.  We'll use this to understand
+aspects of the design of the study, and to replicate aspects
+of the published analysis.
+```{r lkhcc}
+library(restfulSE)
+hccdat = readRDS("pairedHCC.rds")
+hccdat
+```
+
+# Data exploration
+
+The retrieved SummarizedExperiment instance has a `colData` with only
+four columns.  The htxapp adds sample attribute information retrieved with SRAdbV2.
+```{r lkmet}
+dplyr::glimpse(metadata(hccdat)$sampleAttsSRP069212)
+```
+
+We add this table to the colData using the `bindSingleMetadata` function
+of the `htxapp` package.
+```{r add}
+library(htxapp)
+hccdat = bindSingleMetadata(hccdat)
+```
+
+## Sample characteristics
+
+Now the `r CRANpkg("table1")` package can be applied to `colData`
+to get an overview of sample characteristics.
+```{r lkt1,results="asis"}
+table1(~source_name+hbv.infection+cirrhosis+age|gender,data=colData(hccdat))
+```
+We can see that this study involves up to three assays per participant
+(tumor, adjacent normal, portal vein tumor thrombosis).  Fractions
+of individuals with cirrhosis and HBV infection are also noteworthy.
+
+## Assay metadata
+
+We use the function `addRD` from HumanTranscriptomeCompendium to
+add rowData derived from Gencode 27.
+```{r addg27}
+hccdat = addRD(hccdat)
+dplyr::glimpse(as.data.frame(rowData(hccdat)))
+```
+
+## Assay
+
+The assay quantifications are accessed via the `r Biocpkg("DelayedArray")`
+protocol.
+
+```{r lkass}
+assay(hccdat)
+```
+
+For targeted inquiries, we do not need to 'download' the
+complete expression data.  Here we will check on LINC01018.
+```{r lkpl}
+rownames(hccdat)[which(rowData(hccdat)$gene_name == "LINC01018")]
+l1018 = as.numeric(assay(hccdat["ENSG00000250056.5",]))
+dd = data.frame(l1018, colData(hccdat)[,c("patient.id", "source_name")])
+library(ggplot2)
+ggplot(dd, aes(y=log(l1018+1), x=source_name, group=patient.id)) + geom_point() + geom_path(aes(colour=patient.id))
+```
+
