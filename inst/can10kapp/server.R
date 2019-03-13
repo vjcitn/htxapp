@@ -21,7 +21,10 @@ server = function(input, output) {
   output$c = renderPrint(unique(get(input$a, env=cancer75indices$kwstenv)))
   output$e = renderDataTable( {
               targs = mget(input$a, env=cancer75indices$kwstenv)
-              if (length(targs[[1]])>1) message("keyword hits studies ", paste(unlist(targs), collapse=", "), "; using first")
+              if (length(targs[[1]])>1) {
+                 message("keyword hits studies ", paste(unlist(targs), collapse=", "), "; using first")
+                 showNotification(paste0("keyword hits studies ", paste(unlist(targs), collapse=", "), "; using first"), type="message")
+                 }
               targ = targs[[1]][1]
               z = read.csv(system.file(paste0("can10kcsv/", targ,".csv"), package="htxapp"), stringsAsFactors=FALSE)
               z })

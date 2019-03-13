@@ -11,6 +11,11 @@ simpleBindMetadata = function(se) {
  nsa = grep("sampleAtts", names(metadata(se)))
  if (length(nsa)!=1) stop("only works for a single sampleAtts component")
  md = metadata(se)[[nsa]]
+ de = duplicated(md$experiment.accession)
+ if (sum(de)>0) {
+   message("experiment.accession contains duplicates that are deleted.")
+   md = md[-which(de),]
+   }
  rownames(md) = md$experiment.accession
  okid = intersect(rownames(md), colnames(se))
  cd = cbind(colData(se[,okid]), md[okid,])

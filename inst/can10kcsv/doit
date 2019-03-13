@@ -14,7 +14,8 @@
 #
 #
 library(htxapp)
-cf = list("*.id", "filename",
+cf = list("*.id", "filename", "checksum", "isolate", "ID", 
+   "batch", "barcode",
   "sample_name", "Sample.Name", "sample.pool.name")
 cancer75indices = csv2envs(dir(patt="csv$")[1], cleanFields=cf)
 for (i in dir(patt="csv$")[-1]) {
