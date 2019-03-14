@@ -1,0 +1,150 @@
+---
+title: "HumanTranscriptomeCompendium Illustration: Single-cell RNA-seq in diverse breast cancer subtypes"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Working with htxapp: Single-cell RNA-seq in diverse breast cancer subtypes}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+bibliography: htxbib.bib
+---
+
+```{r setup,echo=FALSE,results="hide"}
+suppressPackageStartupMessages({
+library(BiocStyle)
+library(htxapp)
+library(restfulSE)
+library(HumanTranscriptomeCompendium)
+library(ggplot2)
+library(table1)
+})
+```
+
+# Introduction
+
+We used the app at https://vjcitn.shinyapps.io/cancer9k 
+to extract SRA study SRP066982.  This dataset was
+contributed to SRA in conjunction with
+"Single-cell RNA-seq enables comprehensive tumour and immune 
+cell profiling in primary breast cancer",
+carcinoma", a Nature Communications paper 
+(@Chung2017 PMID 28474673).
+The data are saved as `primaryBreastCanSC.rds`  Reads were requantified
+using salmon (by Sean Davis of NCI) and moved into the
+`/shared/bioconductor` folder of the HDF Scalable Data Service
+at `http://hsdshdflab.hdfgroup.org`.
+
+We saved the dataset using the cancer9k app download facility,
+to a local file `primaryBreastCanSC.rds`.  We'll use this to understand
+aspects of the design of the study, and to replicate aspects
+of the published analysis.
+```{r lkhcc}
+library(restfulSE)
+brcadat = readRDS("primaryBreastCanSC.rds")
+brcadat
+```
+
+# Data exploration
+
+The retrieved SummarizedExperiment instance has a `colData` with only
+four columns.  The htxapp adds sample attribute information retrieved with SRAdbV2.
+```{r lkmet}
+dplyr::glimpse(metadata(brcadat)$sampleAttsSRP066982)
+```
+
+We add this table to the colData using the `bindSingleMetadata` function
+of the `htxapp` package.
+```{r add}
+library(htxapp)
+brcadat = bindSingleMetadata(brcadat)
+```
+
+## Sample characteristics
+
+A key sample-level variable is the molecular subtype; we
+need an abbreviated level set for this:
+(ER+; HER2+; ER+,HER2+; TNBC) representing
+(ER-positive; human epidermal growth factor receptor 2 positive;
+double-positive, triple-negative). 
+```{r dobrev}
+brcadat$short = gsub(".*\\(", "", brcadat$molecular.subtype)
+brcadat$short = gsub("(.*)\\)", "\\1", brcadat$short)
+brcadat$short = gsub(" and ", ",", brcadat$short)
+table(brcadat$short)
+```
+
+Cell types isolated are mostly from primary tissue.
+```{r lkct}
+table(brcadat$patient.id, brcadat$cell.type)
+```
+
+Molecular subtypes:
+```{r lkmol}
+table(brcadat$patient.id, brcadat$short)
+```
+
+There is a mix of single-cell and bulk RNA-seq data in this
+dataset.
+
+```{r lksin}
+isSing = grep("ingle", brcadat$source_name)
+table(brcadat$patient.id[isSing])
+table(brcadat$patient.id[-isSing])
+```
+
+
+We can see that this study involves up to three assays per participant
+(tumor, adjacent normal, portal vein tumor thrombosis).  Fractions
+of individuals with cirrhosis and HBV infection are also noteworthy.
+
+## Assay metadata
+
+We use the function `addRD` from HumanTranscriptomeCompendium to
+add rowData derived from Gencode 27.
+```{r addg27}
+brcadat = addRD(brcadat)
+dplyr::glimpse(as.data.frame(rowData(brcadat)))
+```
+
+## Assay
+
+The assay quantifications are accessed via the `r Biocpkg("DelayedArray")`
+protocol.
+
+```{r lkass}
+assay(brcadat)
+```
+
+For targeted inquiries about a small number of genes, the
+DelayedArray interface should be adequate for interactive
+work.
+
+## Further work
+
+The full assay data can be retrieved and loaded into memory
+using `m <- as.matrix(assay(brcadat)); assay(brcadat) = m`.  This
+operation took a little less than 10 minutes on a mediocre network.
+Speed of retrieval will also depend on load at the HDF Scalable
+Data Service.
+
+After doing this we can perform some rudimentary multivariate
+assessment.
+
+```{r lkms}
+load("brloc.rda")
+library(matrixStats)
+rowMads(assay(brloc)) -> ma
+sum(ma>2)
+brv = brloc[which(ma>2),isSing]
+zz = prcomp(t(log(assay(brv)+1)))
+pairs(zz$x[,1:3], col=factor(brv$short), main="by molec. subtype")
+pairs(zz$x[,1:3], col=factor(brv$patient.id), main="by patient id")
+```
+
+# References

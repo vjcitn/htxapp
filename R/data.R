@@ -11,3 +11,8 @@
 #' @docType data
 #' @format character vector
 "studyTitles"
+#' small SummarizedExperiment with repeated measures
+#' @format RangedSummarizedExperiment instance
+#' @note There are 4 features, 58 individuals, derived from data
+#' related to PMID 28194035.
+"hccLinc4"

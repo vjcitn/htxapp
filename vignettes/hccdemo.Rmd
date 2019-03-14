@@ -4,7 +4,7 @@ author: "Vincent J. Carey, stvjc at channing.harvard.edu"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{Working with htxapp: Tumor/normal/thrombosis transcriptomes in Hepatocellular carcinoma}
+  %\VignetteIndexEntry{Working with htxapp: Tumor/normal/portal vein tumor thrombosis transcriptomes in Hepatocellular carcinoma}
   %\VignetteEncoding{UTF-8}
 output:
   BiocStyle::html_document:
@@ -12,6 +12,7 @@ output:
     number_sections: yes
     theme: united
     toc: yes
+bibliography: htxbib.bib
 ---
 
 ```{r setup,echo=FALSE,results="hide"}
@@ -31,8 +32,8 @@ We used the app at https://vjcitn.shinyapps.io/cancer9k
 to extract SRA study SRP069212.  This dataset was
 contributed to SRA in conjunction with
 "Recurrently deregulated lncRNAs in hepatocellular
-carcinoma", a 2017 Nature Communications paper by Yang
-and colleagues from Tsinghua University (PMID 28194035).
+carcinoma", a Nature Communications paper 
+(@Yang2017 PMID 28194035).
 The data are saved as `pairedHCC.rds`.  Reads were requantified
 using salmon (by Sean Davis of NCI) and moved into the
 `/shared/bioconductor` folder of the HDF Scalable Data Service
@@ -67,9 +68,12 @@ hccdat = bindSingleMetadata(hccdat)
 
 Now the `r CRANpkg("table1")` package can be applied to `colData`
 to get an overview of sample characteristics.
+Note that here the `n=` entries DO NOT refer to independent observations.
+
 ```{r lkt1,results="asis"}
 table1(~source_name+hbv.infection+cirrhosis+age|gender,data=colData(hccdat))
 ```
+
 We can see that this study involves up to three assays per participant
 (tumor, adjacent normal, portal vein tumor thrombosis).  Fractions
 of individuals with cirrhosis and HBV infection are also noteworthy.
@@ -95,10 +99,19 @@ assay(hccdat)
 For targeted inquiries, we do not need to 'download' the
 complete expression data.  Here we will check on LINC01018.
 ```{r lkpl}
-rownames(hccdat)[which(rowData(hccdat)$gene_name == "LINC01018")]
-l1018 = as.numeric(assay(hccdat["ENSG00000250056.5",]))
-dd = data.frame(l1018, colData(hccdat)[,c("patient.id", "source_name")])
-library(ggplot2)
-ggplot(dd, aes(y=log(l1018+1), x=source_name, group=patient.id)) + geom_point() + geom_path(aes(colour=patient.id))
+feature_trace("LINC01018", hccdat) + xlab(" ") + guides(colour="none")
 ```
+This display uses quantifications distinct from those
+used by the authors.  The picture is consistent with notion
+that the distribution of abundance of LINC01018 differs
+between samples from tumor and adjacent normal tissue.
 
+## Further work
+
+The full assay data can be retrieved and loaded into memory
+using `m <- as.matrix(assay(hccdat)); assay(hccdat) = m`.  This
+operation took a little more than a minute on a mediocre network.
+Speed of retrieval will also depend on load at the HDF Scalable
+Data Service.
+
+# References

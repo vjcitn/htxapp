@@ -7,7 +7,7 @@
 #' When multiple studies are selected, there will likely be different field sets in each
 #' sample.attributes component, so build a unified colData requires manual work.
 #' @export
-simpleBindMetadata = function(se) {
+bindSingleMetadata = function(se) {
  nsa = grep("sampleAtts", names(metadata(se)))
  if (length(nsa)!=1) stop("only works for a single sampleAtts component")
  md = metadata(se)[[nsa]]
