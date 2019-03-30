@@ -1,7 +1,7 @@
 Package: htxapp
 Title: prototype of metadata-driven selection in HumanTranscriptomeCompendium
 Description: prototype of metadata-driven selection in HumanTranscriptomeCompendium
-Version: 0.0.10
+Version: 0.0.11
 Author: Vince Carey
 Suggests: knitr, HumanTranscriptomeCompendium
 Depends: R (>= 3.5), shiny

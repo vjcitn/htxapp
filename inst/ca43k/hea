@@ -1,0 +1,22 @@
+library(ssrch)
+load("ds_can1009b.rda")
+library(restfulSE)
+load("rangedHtxSE.rda")
+se = rangedHtxSE
+sefilter = function(se, y) se[,which(se$study_accession %in% y)]
+
+ docs = docset  = ds_can1009b
+ titles = slot(docset, "titles")
+ urls = slot(docset, "urls") # may be empty
+#
+# order keywords so that those with alphabetic prefix
+# precede those with special characters or numbers
+#
+ allkw = sort(unique(ls(envir=kw2docs(docs))))
+ ini = substr(allkw,1,1)
+ fullinds = seq_len(length(allkw))
+ preferred = grep("[A-Za-z]", ini)
+ spec = setdiff(fullinds, preferred)
+ allkw = allkw[c(preferred, spec)]
+ dlmessage = ifelse(is.null(se), "download list of data.frames",
+       "download SE")
