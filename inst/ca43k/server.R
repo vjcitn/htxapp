@@ -111,6 +111,8 @@ accumTokens=NULL
                    ans = md
                    } else {
                    ans = sefilter(se, input$keep)
+                   md = lapply(md, function(x) x[which(x$experiment.accession %in%
+                          colnames(ans)),])
                    metadata(ans) = c(metadata(ans), md)
                    }
                 saveRDS(ans, file=con)
