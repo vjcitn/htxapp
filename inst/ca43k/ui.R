@@ -30,6 +30,8 @@ sefilter = function(se, y) se[,which(se$study_accession %in% y)]
 #    p(img(src="bioc.png", width="60px", align="top"), em("Cancer43k")),
     h4("Bioconductor:Cancer43K"),
     helpText("Full text search over genomic metadata on 43000 cancer transcriptomes exclusive of TCGA, retrieved from NCBI SRA."),
+    helpText(a(href="https://youtu.be/Ott0gfDBvMY", target="_blank", "Explanatory video")),
+    helpText(a(href="https://github.com/vjcitn/HumanTranscriptomeCompendium/issues", target="_blank", "File an issue")),
     selectInput("main", "Search studies for",
      choices = allkw, selected="BRAF"),
     selectInput("keep", "Click on rows of 'titles' table to add studies to cart.",
